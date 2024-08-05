@@ -1,0 +1,20 @@
+.caja-apagado-ambar{
+    width: 120px; 
+    height: 120px; 
+    background-color: rgb(249, 155, 14); 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja-encendido-ambar{
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgb(249, 155,14), rgb(242, 251, 176), yellow); /* Gradiente radial */
+    border-radius: 80%;
+    box-shadow: 0 0 150px 50px rgba(255, 255, 0, 0.5); /* Borde difuminado */ 
+}
+

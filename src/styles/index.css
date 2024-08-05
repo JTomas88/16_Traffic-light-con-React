@@ -1,0 +1,28 @@
+.container {
+    height: 100vh; /*centra verticalmente en la ventana    */
+    background-image: url(https://c.pxhere.com/photos/fa/b0/night_highway_traffic_road_line-368.jpg!d);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: rgba(255, 255, 255, 0.9); /* Cambia el último valor (0.5) para ajustar la transparencia */
+
+}
+
+
+
+.barra {
+    width: 20px; 
+    height: 100px; 
+    background-color: black; 
+}
+.cuerpo {
+    width: 150px; 
+    height: 500px; 
+    background-color: black; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px; 
+}
